@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>My Portfolio</title>
+          <link rel="stylesheet" href="style.css">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+          <div id="header">
+                    <div class="container">
+                              <nav>
+                                        <img src="images/lo.png" class="logo">
+                                        <!-- <h1 class="logo">Bala</h1> -->
+                                        <ul id="sidemenu">
+                                                  <li><a href="#header">Home</a></li>
+                                                  <li><a href="#about">About</a></li>
+                                                  <!-- <li><a href="#services">Service</a></li> -->
+                                                  <li><a href="#portfolio">Portfolio</a></li>
+                                                  <li><a href="#contact">Contact</a></li>
+                                                  <i class="fas fa-times" onclick="closemenu()"></i>
+                                        </ul>
+                                      
+                                        <i class="fas fa-bars" onclick="openmenu()"></i>
+                              </nav>
+                              <div class="header-text">
+                                        <p>Web Designer</p>
+                                        <h1>Hi, I'm <span>bala</span><br>from India</h1>
+                              </div>
+                    </div>
+          </div> 
+
+          <!------------------------------ ABOUT--------------------------- -->
+          <div id="about">
+                    <div class="container">
+                              <div class="row">
+                                        <div class="about-col-1">
+                                                  <img src="images/user1.jpg" alt="">
+                                        </div>
+                                        <div class="about-col-2">
+                                                  <h1 class="sub-title">About Me</h1>
+                                                  <p>To use my extensive knowledge of software engineering, innovative problem-solving skills, and passion for technology to develop and implement high-quality softfware solutions and contribute to the success of the organization.</p>
+
+                                                  <div class="tab-titles">
+                                                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                                                            <!-- <p class="tab-links " onclick="opentab('experience')">Experience</p> -->
+                                                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                                                  </div>
+                                               <div class="tab-contents active-tab " id="skills">
+                                                <ul>
+                                                   <li><span>Java</span><br></li>
+                                                   <li><span>SQL</span></li>
+                                                   <li><span>HTML</span></li>
+                                                   <li><span>CSS</span></li>
+                                                   <li><span>React JS</span></li>
+                                                   <li><span>JDBC</span></li>
+                                                   <li><span>Hibernate</span></li>
+                                                   <li><span>Servlet</span></li>
+                                                   <li><span>Spring</span></li>
+                                                   
+                                                </ul>
+                                                 
+                                               </div>
+                                               <!-- <div class="tab-contents" id="experience">
+                                                <ul>
+                                                   <li><span>2021 - Current</span><br>UI/UX Design Training at ET Insttitute</li>
+                                                   <li><span>2019 - 2021</span><br>Team Lead at StarApp LLC</li>
+                                                   <li><span>2017 - 2019</span><br>UI/UX Executive at Coin Digital Ltd</li>
+                                                   <li><span>2016 - 2017</span><br>Internship at ekart eCommerce.</li>
+                                                </ul>
+                                                 
+                                               </div> -->
+                                               <div class="tab-contents" id="education">
+                                                <ul>
+                                                   <li><span>2016</span><br>Nava Bharath Matriculation School, Rajapalayam.<br><pre>                                                                      93.8%</pre></li>
+                                                   <li><span>2017-2019</span><br>P.A.C.M Higher Secondary School,Rajapalayam.<br><pre>                                                                     72.33%</pre></li>
+                                                   <li><span>2019-2023</span><br>Dr.Mahalingam college of eng and technology.<br><pre>                                                                     79.75%</pre></li>
+                                                </ul>
+                                                 
+                                               </div>
+                                                
+                                        </div>
+                              </div>
+                    </div>
+          </div>
+          <!-----------------------------SERVICES------------------------ -->
+          <!-- <div id="services">
+            <div class="container">
+               <h1 id="sub-title">My Services</h1>
+               <div class="services-list">
+                 
+                  <div>
+                     <i class="fa-solid fa-code"></i>
+                     <h2>Web Design</h2>
+                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum accusamus laudantium architecto omnis maxime a blanditiis voluptatibus beatae. Quam quasi suscipit dolorem minus sunt minima dolores aut quidem voluptate praesentium!</p>
+                     <a href="#">Learn more</a>
+                  </div>
+                  <div>
+                     <i class="fa-solid fa-crop-simple"></i>
+                     <h2>UI Design</h2>
+                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum accusamus laudantium architecto omnis maxime a blanditiis voluptatibus beatae. Quam quasi suscipit dolorem minus sunt minima dolores aut quidem voluptate praesentium!</p>
+                     <a href="#">Learn more</a>
+                  </div>
+                  <div>
+                     <i class="fa-brands fa-app-store"></i>
+                     <h2>App Design</h2>
+                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum accusamus laudantium architecto omnis maxime a blanditiis voluptatibus beatae. Quam quasi suscipit dolorem minus sunt minima dolores aut quidem voluptate praesentium!</p>
+                     <a href="#">Learn more</a>
+                  </div>
+
+               </div>
+            </div>
+          </div> -->
+          <!-- ----------------PORTFOLIO--------------------- -->
+          <div id="portfolio">
+
+            <div class="container">
+               <h1 id="sub-title">My Work</h1>
+               <div class="work-list">
+                  <div class="work">
+                     <img src="images/snake.png" alt="">
+                     <div class="layer">
+                        <h3>Snake Game</h3>
+                        <p>I created basic snake game using HTML,CSS and JavaScript.</p>
+                        <a href="https://snake-bat.vercel.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                     </div>
+                  </div>
+                  <div class="work">
+                     <img src="images/weather.png" alt="">
+                     <div class="layer">
+                        <h3>Weather Details</h3>
+                        <p>I created a simple weather displaying application using React JS.</p>
+                        <a href="http://weather-dis.netlify.app"><i class="fa-solid fa-up-right-from-square"></i></a>
+                     </div>
+                  </div>
+                  <div class="work">
+                     <img src="images/cart.png" alt="">
+                     <div class="layer">
+                        <h3>Food Cart</h3>
+                        <p>I created simple food cart using React JS.</p>
+                        <a href="https://footcart.netlify.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                     </div>
+                  </div>
+               </div>
+               <a href="#" class="btn">See more</a>
+            </div>
+          </div>
+<!-- -------------------------CONTACT------------------- -->
+         <div id="contact">
+            <div class="container">
+               <div class="row">
+                  <div class="contact-left">
+                     <h1 class="sub-title">Contact me</h1>
+                     <p><i class="fas fa-paper-plane"></i>tbm00007@gmail.com</p>
+                     <p><i class="fas fa-phone-square-alt"></i>6383714937</p>
+                     <div class="social-icons">
+                        <!-- <a href=""><i class="fab fa-facebook"></i></a> -->
+                        <!-- <a href="https://wa.me/qr/E6M6GXNOOXZ5L1"><i class="fab fa-twitter-square"></i></a> -->
+                        <a href="https://www.instagram.com/tbm_.07/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://linkedin.com/in/thanga-balamurugan-t-a40679241/"><i class="fab fa-linkedin"></i></a>
+                     </div>
+                     <a href="images/Resume.pdf" download class="btn btn2">Download CV</a>
+                  </div>
+                  <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                           <input type="text" name="Name" placeholder="Your name" required>
+                           <input type="email" name="Email" placeholder="Your email" required>
+                           <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                           <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                  </div>
+               </div>
+            </div>
+            <div class="copyright">
+               <p>Copyright &copy; Bala.</p>
+            </div>
+         </div>
+
+          
+          <script>
+                    var tablinks=document.getElementsByClassName("tab-links")
+                    var tabcontents=document.getElementsByClassName("tab-contents")
+                    function opentab(tabname)
+                    {
+                     for(tablink of tablinks)
+                     {
+                        tablink.classList.remove("active-link")
+                     }
+                     for(tabcontent of tabcontents)
+                     {
+                        tabcontent.classList.remove("active-tab")
+                     }
+                     event.currentTarget.classList.add("active-link")
+                     document.getElementById(tabname).classList.add("active-tab")
+                    }
+          </script>
+          <script>
+
+            var sidemenu=document.getElementById("sidemenu");
+
+            function openmenu()
+            {
+               sidemenu.style.right="0";
+            }
+            function closemenu()
+            {
+               sidemenu.style.right="-200px";
+            }
+
+          </script>
+         
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbyd7U4EzoTHd4plw0lxc1c1lvRaPMG5DEs7Ezyzwzxk4FlWCMkyi-UotEsFv0Et_cyN/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg=document.getElementById("msg")
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+         msg.innerHTML="Message sent successfully"
+         setTimeout(function()
+         {
+            msg.innerHTML="";
+         },3000)
+         form.reset();
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html>
